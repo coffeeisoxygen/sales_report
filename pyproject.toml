@@ -1,7 +1,7 @@
 [project]
 name = "sales-report"
-version = "0.1.0"
-description = "sales report app"
+dynamic = ["version"]
+description = "Sales Report Dashboard - ETL and Analytics Tool"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -13,3 +13,16 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/coffeeisoxygen/sales_report"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = { find = { where = ["."], include = ["src*"] } }
+
+[tool.setuptools_scm]
+write_to = "src/_version.py"
+version_scheme = "guess-next-dev"
+local_scheme = "no-local-version"
+fallback_version = "0.1.0"

@@ -45,8 +45,10 @@ install/
 *._version.py
 
 # generated version
-src/sales_dashboard/_version.py
+src/_version.py
 
 # environment variables
 .env
 *.env
+
+.github/copilot-instructions.md
