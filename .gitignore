@@ -1,0 +1,52 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+# github
+.github/instructions/
+.github/prompts/
+# egg info
+*.egg-info/
+
+# version generated
+*.version
+*._version.py
+
+# streamlit secret
+.streamlit/secrets.toml
+
+# Database
+*.Db
+*.db
+#loging
+*.log
+
+# test reports
+.reports/
+
+#cache
+.pytest_cache/
+.ruff_cache/
+
+# future commit after finishing the project
+install/
+
+
+# editor
+.vscode/
+*._version.py
+
+# generated version
+src/sales_dashboard/_version.py
+
+# environment variables
+.env
+*.env
