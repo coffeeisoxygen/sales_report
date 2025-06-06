@@ -10,3 +10,6 @@ dependencies = [
     "pandas>=2.3.0",
     "streamlit>=1.45.1",
 ]
+
+[project.urls]
+Homepage = "https://github.com/coffeeisoxygen/sales_report"
