@@ -91,7 +91,7 @@ fail_fast: true
 # Exclude auto-generated and build files
 exclude: |
   (?x)^(
-    src/sales_dashboard/_version\.py|
+    src/_version\.py|
     \.venv/.*|
     \.reports/.*|
     dist/.*|
