@@ -1,0 +1,42 @@
+[global]
+# Disable widget duplication warnings for cleaner development
+disableWidgetStateDuplicationWarning = true
+
+[logger]
+level = "info"
+messageFormat = "%(asctime)s %(message)s"
+
+[client]
+# Show full error details for debugging during development
+# Change to "auto" for end users
+showErrorDetails = "full"
+toolbarMode = "auto"
+
+[runner]
+# Enable magic commands and fast reruns for better UX
+magicEnabled = true
+fastReruns = true
+
+[server]
+# Auto-rerun when files change (great for development)
+runOnSave = true
+# Auto-open browser for non-technical users
+headless = false
+port = 8501
+# Increase upload size for sales data files
+maxUploadSize = 500
+
+[browser]
+# Don't send usage statistics (privacy for internal MIM3 use)
+gatherUsageStats = false
+
+[mapbox]
+# Leave empty - will use built-in st.map() with OpenStreetMap
+# Users can optionally add token later if needed
+token = ""
+
+[theme]
+# Professional light theme for office environment
+base = "light"
+primaryColor = "#1f77b4"
+font = "sans-serif"
